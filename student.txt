@@ -1,0 +1,4 @@
+9   China   Deng Zhanbiao   M   1.0 1.0
+10  Japan   Wang Fei   M   2.0 3.0
+11  Indonesia   Tie Chui    M   5.0 6.0
+12  Korea   Li Ben  M   6.0 6.0
