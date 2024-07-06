@@ -30,6 +30,13 @@ int main()
 {
     int bucket[26];
     int tlen = strlen(txt);
+    /*
+    bucket 2: a 2-dimensional array used to collect and sort
+    alphabets based on the time they appear in texts.
+    tlen + 1: enough rows if there is only one type of alphabets in the texts.
+    26: referred to 26 alphabets, to make sure there are enough columns if each
+    alphabet appears the same number of times.
+    */
     int bucket2[tlen+1][26];
     count(txt, tlen, bucket, bucket2);
     /* for (int i = 0; i < 26; i++)
