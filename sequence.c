@@ -70,13 +70,13 @@ void find_flush(char scards[4][13], char ret[4], char end[4])
             {
                 count++;
             }
-            if (scards[i][j] == 0 || j == 12)
+            else
             {
                 if(count >= 3){
                     if(count>max){
                         max = count;
                         printf("max=%d\n",max);
-                        e = j==12?j:j-1;
+                        e = j - 1;
                     }
                     //printf("find a flush:%d\n",max);
                 }
@@ -92,10 +92,6 @@ int main()
 {
     char cards2[52];
     shuffle(cards2);
-    char bugy[20] = {26,51,33,48,21,23,52,37,30,12,20,4,39,50,35,36,40,25,24,49};
-    for(int i = 0;i < 20; i++){
-        cards2[i] = bugy[i];
-    }
     print20(cards2);
     printf("\n");
     for (int i = 0; i < 20; i++)
