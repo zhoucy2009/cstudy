@@ -223,7 +223,14 @@ int main()
     print_day_title(t_year, t_day, t_month);
     print_calandar();
 
-    getch();
+    while(1)
+    {
+        int c = getch();
+        mvprintw(35,0,"Press Option + Q to quit");
+        if(c == 147){
+            break;
+        }
+    }
 
     endwin();
 
