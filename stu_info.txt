@@ -1,0 +1,5 @@
+----------------Student Information List--------------
+Student #1:
+Name: Zhou Chengyi|Country: China|Age: 14|Score: 100.00|
+Student #2:
+Name: Huang Mingyang|Country: China|Age: 16|Score: 100.00|
